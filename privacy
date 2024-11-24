@@ -1,0 +1,103 @@
+# Privacy Policy for Element Hider
+
+**Last Updated: November 24, 2024**
+
+## Overview
+
+Element Hider is committed to protecting your privacy. This Privacy Policy explains how our browser extension handles (and importantly, does not handle) user data.
+
+## Key Points
+
+- We do not collect any personal information
+- We do not transmit any data to external servers
+- All data is stored locally on your device only
+- You have complete control over your data
+
+## Data Storage and Usage
+
+### What We Store Locally
+
+The extension stores only:
+- CSS selectors of elements you choose to hide
+- The website domains (hostnames) where elements are hidden
+
+This data is stored exclusively in your browser's local storage (chrome.storage.local) and never leaves your device.
+
+### How We Use Local Data
+
+The stored data is used solely to:
+- Remember which elements you've chosen to hide on specific websites
+- Automatically re-apply your hiding preferences when you revisit websites
+- Enable the "Restore all hidden elements" feature
+
+### Data Control
+
+You can easily remove all stored data by:
+- Using the "Restore all hidden elements" feature on each website
+- Clearing your browser's extension storage
+- Uninstalling the extension
+
+## Data Collection
+
+We do NOT collect:
+- Personal information (names, emails, etc.)
+- Health information
+- Financial information
+- Authentication details
+- Personal communications
+- Location data
+- Web browsing history
+- User activity (clicks, scrolling, keystrokes)
+- Website content (text, images, media)
+
+## Data Transmission
+
+The extension NEVER:
+- Sends data to external servers
+- Communicates with third-party services
+- Tracks user behavior
+- Monitors browsing activity
+
+## Updates to This Policy
+
+If we make changes to this privacy policy, we will update the "Last Updated" date at the top of this policy and provide notification through the Chrome Web Store.
+
+## Contact
+
+If you have questions about this privacy policy or our privacy practices, please submit them through the Chrome Web Store support channel for Element Hider.
+
+## User Rights
+
+You have the right to:
+- Know what data is stored locally
+- Control your data through the extension's features
+- Delete all stored data at any time
+- Uninstall the extension and remove all associated data
+
+## Technical Details
+
+For transparency, here's how data is handled technically:
+
+1. Data Storage Format:
+   - Data is stored as simple key-value pairs in chrome.storage.local
+   - Keys are website hostnames (e.g., "example.com")
+   - Values are arrays of CSS selectors for hidden elements
+
+2. Data Scope:
+   - Limited to the current browser profile
+   - Isolated to the extension's storage space
+   - Not shared between different browsers or devices
+
+3. Data Persistence:
+   - Survives browser restarts
+   - Cleared on extension uninstall
+   - Can be manually cleared at any time
+
+## Compliance
+
+This extension is designed to respect user privacy and comply with:
+- Chrome Web Store Developer Program Policies
+- General Data Protection Regulation (GDPR) principles
+- California Consumer Privacy Act (CCPA) principles
+
+By using Element Hider, you can be confident that your privacy is protected, as no personal data is collected, stored, or transmitted beyond your local device.
